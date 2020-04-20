@@ -1,0 +1,148 @@
+MVT   - MODEL VIEW TEMPLATE 
+
+DATABASE -- STORES DATA - MODEL
+
+
+VIEWS --  LOGIC 
+
+
+TEMPLATE -- RESPONSE 
+
+
+
+DATA FROM USER --->> cREATE A ACCOUNT 
+
+
+
+SETTINGS.PY -->> URLS.PY -->> VIEWS[LOGIC] -->>JSON -->> DATABASE 
+
+
+
+
+
+API?
+
+
+AKSHAT 
+USERNAME - AKSHATVG
+PASSWORD - QWERTY
+EMI
+X
+Y
+Z
+
+WEBSITE/APP            BACKEND-DATABASE 
+
+
+
+RESTAURANT     u_MENU[IDLY,VADA...]      KITCHEN
+
+
+JSON?
+
+[] {}
+
+ABC = {
+    "NAME":"KUNAL",
+    "USERNAME":"KUNAL",
+}
+
+CDE = {
+    "USERNAME":"SHREYA",
+    "TODOLIST":[
+        "WAKEUP",
+        "BATH",
+        "EAT",
+        "CODE",
+        "SLEEP"
+    ]
+}
+
+[
+ {
+    "USERNAME":"SHREYA",
+    "TODOLIST":[
+        "WAKEUP",
+        "BATH",
+        "EAT",
+        "CODE",
+        "SLEEP"
+    ]
+},
+{
+    "USERNAME":"AKSHAT",
+    "TODOLIST":[
+        "WAKEUP",
+        "BATH",
+        "CODE",
+        "EAT",
+        "SLEEP"
+    ]
+}   
+]
+
+
+ORM OBJECT RELATIONAL MAPPING
+
+SQL - DATABASE
+
+ORM DJANGO - OBJECT RELATIONAL MAPPER
+
+QUERYDICT
+
+DATABASE
+TABLE1
+USER USERNAME NAME 
+AKSHAT AKSHATVG AKSHAT
+KUNAL KITCHEN LUM
+
+
+TABLE2
+
+
+TABLEN
+
+
+VIRTUALENV 
+
+I AM A PYTHON PACKAGE DEV 
+LIBRARIES
+CC
+1.0.0
+DEF MAINA()
+
+2.0.0
+DEF MAIN()
+
+
+
+PRJ A  CC-1.0.0
+WORK?
+NO
+
+PRJ B   CC-2.0.0
+
+
+
+urls
+
+
+SETTINGS.PY -->> URLS.PY -->> app urls
+
+routes
+
+127.0.0.1:8000/api/auth/djoser/users/
+
+
+login code 
+signout 
+signup 
+
+migrate
+
+todolist/models.py -- >> CREATE A TABLE
+
+will my existing database effect/break?
+makemigrations
+python manage.py makemigrations
+python manage.py migrate
