@@ -30,6 +30,10 @@ class TaskAdder(APIView):
             return Response({
                 'status':'added'
             },status=201)
+        return Response({
+                'status':'failed',
+                'message':obj.errors
+            },status=400)
 
 
 class TaskModifier(APIView):
